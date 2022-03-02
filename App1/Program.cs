@@ -11,7 +11,7 @@ namespace App1
             Console.WriteLine("Dati numarul b:");
             int b = int.Parse(Console.ReadLine());
             int rezultat;
-            rezultat = a + b;
+            rezultat = a * b;
             Console.WriteLine("Rezultatul este: {0}", rezultat);
             Console.ReadKey();
 
